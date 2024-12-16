@@ -1,0 +1,62 @@
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size 
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{eso-pic}
+\usepackage[export]{adjustbox}
+%\usepackage{tikz} 
+
+\usepackage{xcolor}
+\usepackage{transparent}
+\definecolor{jhublue}{RGB}{0, 45, 114}
+
+\geometry{
+	top=1cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+}
+
+\newcommand\BackgroundPicture{
+   \put(0,0){
+     \parbox[b][\paperheight]{\paperwidth}{
+       \vfill
+       \centering
+        \transparent{0.15}\includegraphics[width=0.5\paperwidth,height=0.5\paperheight,keepaspectratio]{university.shield.cmyk.blue.eps}
+       \vfill
+     }}}
+\AddToShipoutPicture{\BackgroundPicture}
+
+\begin{document}
+
+\begin{minipage}{0.6\textwidth}
+\includegraphics[width=3in]{JHU.logo_horizontal.blue.eps}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}\raggedright
+\small{
+% \textbf{\color{jhublue}Referee:}\hphantom{A}xxxx\\
+\textbf{\color{jhublue}Address:}\hphantom{A}Hackerman xxx\\
+\hphantom{AA}Department of Computer Science\\
+\hphantom{AA}Johns Hopkins University\\
+\hphantom{AA}Baltimore, MD 21218\\
+\hphantom{AA}United States\\
+% \textbf{\color{jhublue}Phone: }(xxx) xxx-xxx\\
+\textbf{\color{jhublue}Email: }xxx@jhu.edu }
+\end{minipage}
+
+\today
+
+To Whom It May Concern:
+
+\lipsum[2-4]
+
+Sincerely,
+
+\includegraphics[width=2.1in]{signature}
+
+xxxxxx,\\
+PhD Student,\\
+Department of Computer Science\\
+Johns Hopkins University
+\end{document}

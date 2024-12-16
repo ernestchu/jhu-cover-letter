@@ -1,0 +1,1 @@
+# JHU Cover Letter Template
