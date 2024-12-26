@@ -1,3 +1,5 @@
 # JHU Cover Letter Template
 
-[![main](https://github.com/user-attachments/assets/1c8dc4af-01be-4ed8-9c53-3e606e844dea)](main.pdf)
+[![main](https://github.com/user-attachments/assets/d1d87017-1337-43b8-b8ea-81aab518a9ef)](main.pdf)
+
+
